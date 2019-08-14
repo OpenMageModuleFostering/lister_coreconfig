@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lister_Coreconfig</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Coreconfig - Module which is used to import the config data via csv and store it in the respective table (core_config_data)</summary>
+    <description>Magento Installations with more than one website/store/storeview with active development then copying all the manual config changes done by the developers to production will become difficult. It will become much more critical when you have pool of developers &amp; designers working on.&#xD;
+ &#xD;
+ This module helps to reduce the pain, development cost &amp; the quality cost by updating any number of configurations in a single click. Also this module reduces the chance of human errors when you have too many configurations. Also this will help you to fastrack the deployment time.&#xD;
+ &#xD;
+ Just the developer needs to take the back up of configurations which needs to be updated in production and replace production specific values if any, prove the csv to the system admin / Magento Admin with the proper instructions where to import and save.&#xD;
+&#xD;
+ Features: &#xD;
+&#xD;
+  Simple to use : Just specify the path, scope and the value to be updated.&#xD;
+  &#xD;
+  Time effective : Any number of configurations will be updated with in a short span.&#xD;
+  &#xD;
+  Seemlessly work with any extension.&#xD;
+  &#xD;
+  Scope settigs can also be defined.</description>
+    <notes>This is the initial stable version.</notes>
+    <authors><author><name>Lister Technologies (P) Ltd</name><user>Lister</user><email>senthil.muppidathi@listertechnologies.com</email></author></authors>
+    <date>2015-05-28</date>
+    <time>10:51:51</time>
+    <contents><target name="magecommunity"><dir name="Lister"><dir name="Coreconfig"><dir name="Helper"><file name="Data.php" hash="cbbb844cf3c432190cf7922fcaf5cb1c"/></dir><dir name="Model"><file name="Import.php" hash="07e75a2de9426e984956ba62fa442930"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8da415f2e282cd71b9bb3236da09d286"/><file name="config.xml" hash="bd7ad6de39af734f5d9a4e8ad10c96d9"/><file name="system.xml" hash="d08b0be6a03415d67cde38d5ff5714f0"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lister_Coreconfig.xml" hash="ed0b754c0ba6281f7ed977c14812d361"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.6.9</max></php></required></dependencies>
+</package>

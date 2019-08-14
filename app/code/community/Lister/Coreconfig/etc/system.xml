@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Lister ( http://www.listertechnologies.com )
+ * @package     Lister_Coreconfig
+ * @contacts    info@listertechnologies.com
+ */
+-->
+<config>
+    <tabs>
+        <coreconfig translate="label" module="coreconfig">
+            <label>Lister Config Import</label>
+            <sort_order>30000</sort_order>
+        </coreconfig>
+    </tabs>
+    <sections>         
+        <coreconfig translate="label" module="coreconfig">
+            <label>Import Config</label>
+            <tab>coreconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>302</sort_order>
+            <show_in_default>1</show_in_default>   
+            <show_in_store>1</show_in_store>          
+            <groups>
+                <coreconfig translate="label">
+                    <label>Create / Update configuration values</label>                     
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default> 
+                    <show_in_store>1</show_in_store>                   
+                    <fields>                        
+                        <coreconfig translate="label">
+                            <label>Select csv file to import data</label>
+                            <frontend_type>import</frontend_type>
+                            <comment>Csv should contain scope,scope_id,path,value</comment>
+                            <backend_model>coreconfig/import</backend_model>       
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>                            
+                        </coreconfig> 
+                    </fields>  
+                </coreconfig>
+            </groups>
+        </coreconfig>
+    </sections>
+</config>

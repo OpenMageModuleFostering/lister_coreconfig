@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category    Lister (http://www.listertechnologies.com)
+ * @package     Lister_Coreconfig
+ */
+-->
+<config>
+    <modules>
+        <Lister_Coreconfig>
+            <active>true</active>
+            <codePool>community</codePool>            
+        </Lister_Coreconfig>
+    </modules>
+</config>

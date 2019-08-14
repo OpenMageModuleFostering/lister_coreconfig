@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Lister ( http://www.listertechnologies.com )
+ * @package     Lister_Coreconfig
+ * @contacts    info@listertechnologies.com
+ */
+-->
+<config>
+    <modules>
+        <Lister_Coreconfig>
+            <version>0.0.1</version>
+        </Lister_Coreconfig>
+    </modules>
+    <global>     
+        <models>
+            <coreconfig>
+                <class>Lister_Coreconfig_Model</class>                
+            </coreconfig>                     
+        </models>        
+        <helpers>
+            <coreconfig>
+                <class>Lister_Coreconfig_Helper</class>
+            </coreconfig>
+        </helpers>    
+    </global>    
+</config>

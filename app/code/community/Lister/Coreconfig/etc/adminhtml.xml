@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Lister ( http://www.listertechnologies.com )
+ * @package     Lister_Coreconfig
+ * @contacts    info@listertechnologies.com
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <coreconfig translate="title" module="coreconfig">
+                                        <title>Config Uploader</title>
+                                    </coreconfig>                                    
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>    
+</config>
