@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Lister_Coreconfig",
+    "name": "openmage-module-fostering\/lister_coreconfig",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Coreconfig - Module which is used to import the config data via csv and store it in the respective table (core_config_data)",
     "authors": [
