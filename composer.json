@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Lister_Coreconfig",
+    "name": "OpenMageModuleFostering\/Lister_Coreconfig",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Coreconfig - Module which is used to import the config data via csv and store it in the respective table (core_config_data)",
     "authors": [
-    {
-        "name": "Lister Technologies (P) Ltd",
-        "email": "senthil.muppidathi@listertechnologies.com"
-    }
-],
+        {
+            "name": "Lister Technologies (P) Ltd",
+            "email": "senthil.muppidathi@listertechnologies.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
